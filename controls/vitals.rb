@@ -1,13 +1,13 @@
 title 'vitals'
 ports = attribute(
   'ports',
-  default: ['8080'],
+  value: ['8080'],
   description: 'Ports that Jenkins listening on'
 )
 
 jenkins_url = attribute(
   'jenkins_url',
-  default: 'http://localhost:8080',
+  value: 'http://localhost:8080',
   description: 'Jenkins URL'
 )
 

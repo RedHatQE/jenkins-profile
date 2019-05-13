@@ -1,12 +1,12 @@
 title 'system'
 version = attribute(
   'version',
-  default: '2.60.3-1.1',
+  value: '2.60.3-1.1',
   description: 'Jenkins version'
 )
 jenkins_home = attribute(
   'jenkins_home',
-  default: '/var/lib/jenkins',
+  value: '/var/lib/jenkins',
   description: 'Jenkins home'
 )
 control 'system-01' do

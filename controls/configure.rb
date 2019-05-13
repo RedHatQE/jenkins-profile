@@ -2,17 +2,17 @@ title 'Jenkins configuration'
 
 jenkins_home = attribute(
   'jenkins_home',
-  default: '/var/lib/jenkins',
+  value: '/var/lib/jenkins',
   description: 'Jenkins home'
 )
 plugins = attribute(
   'jenkins_plugins',
-  default: [],
+  value: [],
   description: 'Jenkins plugins'
 )
 settings = attribute(
   'jenkins_settings',
-  default: [],
+  value: [],
   description: 'Jenkins settings'
 )
 
