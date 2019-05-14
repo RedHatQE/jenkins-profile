@@ -6,4 +6,4 @@ before_install:
   - gem install rubocop inspec inspec-bin
 script:
   - rubocop
-  - inspec --chef-license=accept-silent check .
+  - inspec check --chef-license=accept-silent .
