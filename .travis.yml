@@ -3,7 +3,7 @@ sudo: false
 rvm:
   - 2.4
 before_install:
-  - gem install rubocop inspec
+  - gem install rubocop inspec inspec-bin
 script:
   - rubocop
   - inspec check .
