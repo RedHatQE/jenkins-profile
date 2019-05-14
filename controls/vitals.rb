@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 title 'vitals'
 ports = attribute(
   'ports',

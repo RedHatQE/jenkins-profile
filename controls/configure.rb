@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 title 'Jenkins configuration'
 
 jenkins_home = attribute(
